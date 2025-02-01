@@ -12,8 +12,9 @@ This project aims to develop a system that processes fingerprints captured with 
 
 ## 📂 Directory Structure
 - `200104004067.py` → Main code file.  
-- `images/` → Fingerprint images (hidden).  
+- `examples/` → Fingerprint images (hidden).  
 - `README.md` → Project documentation.
+- `LICENSE` → MIT Licence.
 
 ## 📸 How to Take Photos
 - Place your finger in the center rectangle.
@@ -53,3 +54,6 @@ This project aims to develop a system that processes fingerprints captured with 
 ## ⚠️ Security and Data Privacy
 - The fingerprint images used in this project are personal data and have not been publicly shared.
 - The `examples/` folder contains blurred versions of real fingerprint images.
+
+## 📜 License
+This project is licensed under the MIT License. For details, please refer to the LICENSE file.
