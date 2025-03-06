@@ -25,12 +25,12 @@ This project develops a fingerprint recognition system that processes images cap
 
 ## 📸 Capturing Fingerprint Images
 For best results when capturing fingerprint images:
-1. Use good lighting conditions (natural light works best)
+1. Use good lighting conditions (flashlight works best)
 2. Position your finger within the center rectangle of the camera frame
 3. Hold the camera steady to avoid motion blur
 4. Ensure your fingertip is clean and dry
 
-<img src="examples/1.png" alt="Fingerprint Positioning Example" width="400"/>
+<img src="examples/1.png" alt="Fingerprint Positioning Example" width="200"/>
 
 *Example showing correct finger positioning within the center rectangle*
 
@@ -47,7 +47,7 @@ def load_image(image_path):
     # Loads image, handles orientation, converts to grayscale
 ```
 
-<img src="examples/2.png" alt="Grayscale Conversion" width="400"/>
+<img src="examples/2.png" alt="Grayscale Conversion" width="600"/>
 
 *Example of an image after loading and grayscale conversion*
 
@@ -74,7 +74,7 @@ def extract_center(image):
     # Extracts the central portion containing the core fingerprint pattern
 ```
 
-<img src="examples/3.png" alt="Center Extraction" width="400"/>
+<img src="examples/3.png" alt="Center Extraction" width="600"/>
 
 *Example showing the extracted center region of a fingerprint*
 
@@ -85,11 +85,11 @@ def apply_morphological_operations(image, kernel_size, iterations):
     # Applies opening and closing operations to refine ridge patterns
 ```
 
-<img src="examples/4.png" alt="Before Morphological Operations" width="400"/>
+<img src="examples/4.png" alt="Before Morphological Operations" width="800"/>
 
 *Before applying morphological operations*
 
-<img src="examples/5.png" alt="After Morphological Operations" width="400"/>
+<img src="examples/5.png" alt="After Morphological Operations" width="800"/>
 
 *After applying morphological operations - note the improved ridge definition*
 
